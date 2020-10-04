@@ -1,5 +1,6 @@
 # Remote Auth Server
 [![License](https://img.shields.io/github/license/borkenware/remote-auth-server.svg?style=flat-square)](https://github.com/borkenware/remote-auth-server/blob/mistress/LICENSE)
+
 A small, fast and secure microservice to easily provide remote authentication from a trusted device.
 
 # This is a work in progress
