@@ -1,0 +1,24 @@
+{
+	"name": "@borkenware/ra-server",
+	"version": "0.1.0",
+	"description": "A small, fast and secure microservice to easily provide remote authentication from a trusted device.",
+	"main": "src/index.ts",
+	"repository": "git@github.com:borkenware/remote-auth-server.git",
+	"author": "Bowser65 <bowoser@borkenware.com>",
+	"license": "BSD-3-Clause",
+	"scripts": {
+		"start": "node ./dist/index.js",
+		"dev": "ts-node src/index.ts",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"fastify": "^3.4.1",
+		"fastify-websocket": "^2.0.7"
+	},
+	"devDependencies": {
+		"jest": "^26.4.2",
+		"ts-node": "^9.0.0",
+		"typescript": "^4.0.3"
+	}
+}
